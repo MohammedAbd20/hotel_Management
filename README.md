@@ -35,13 +35,12 @@ Laravel based application that lets customers view room facilities, prices, and 
 ## Demo
 
 - Reservation  
-  ![userside](https://private-user-images.githubusercontent.com/135148978/245909270-fc2feeb3-c21c-4dc4-83b8-2dc115225386.png)
+  ![userside](https://i.ibb.co/Gfgp0Ybq/22.png)
 
 - Dashboard  
-  ![dashboard](https://private-user-images.githubusercontent.com/135148978/245909314-f876a480-efb4-4482-b78f-bbc9859d4e53.png)
+  ![dashboard](https://i.ibb.co/tPzqyFNh/11.png)
 
-- ER Diagram  
-  ![ERD](https://private-user-images.githubusercontent.com/135148978/245909403-01e6c289-e7b1-4847-932c-be6270ef47ee.png)
+- ER Diagram 
 
 ## Features
 
