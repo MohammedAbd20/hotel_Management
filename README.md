@@ -1,83 +1,106 @@
 
-## Hotel Management
+# 🏨 Hotel Booking Platform  
+Manage hotel rooms, bookings, and users with a full admin panel.
 
-Laravel based application that lets customers view room facilities, prices, and availability according to their check-in and check-out dates, and book the room of their choice. A full admin panel is created to perform all CRUD operations for managing hotel rooms.
+# 💼 Laravel-Based Room Reservation System  
+Browse available rooms and reserve based on check-in/check-out dates.
 
-## Technology Stack
+---
+
+## 🛠 Tech Stack
 
 - Laravel 10
 - Eloquent ORM
 - Blade Templates
-- Database Migration/Seeding
+- Database Migration & Seeding
 - Authentication
 
-## Demo
+---
 
-- Reservation  
-  ![userside](https://i.ibb.co/Gfgp0Ybq/22.png)
+## ✨ Features
 
-- Dashboard  
-  ![dashboard](https://i.ibb.co/tPzqyFNh/11.png)
+### 👤 User Side
+- User authentication & profile update
+- Browse available rooms by check-in/check-out dates
+- "My Bookings" section for tracking reservations
+- Real-time validation of user inputs
 
-- ER Diagram 
+### 🛠 Admin Side
+- Secure admin login
+- Admin dashboard with full room CRUD (create, update, delete)
+- Set room visibility (visible/hidden)
+- View and manage all bookings
 
-## Features
+---
 
-**User Side:**
+## 🖼 Demo
 
-- User authentication.
-- Filter all available rooms based on check-in and check-out dates.
-- "My Bookings" page to view all bookings.
-- Update user profile.
-- User input validation.
+### 🧍‍♂️ User Reservation Page  
+<img src="https://i.ibb.co/Gfgp0Ybq/22.png" alt="Reservation Page" width="600"/>
 
-**Admin Side:**
+### 🛠 Admin Dashboard  
+<img src="https://i.ibb.co/tPzqyFNh/11.png" alt="Admin Dashboard" width="600"/>
 
-- Admin login.
-- Dashboard for adding a new room, editing room details, and setting the visibility to visible/hidden.
-- Display all bookings.
+---
 
-## How to Use
+## 📦 Installation Guide
 
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/ramezcode1/hotelManagement.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory**
    ```bash
    cd hotelManagement
    ```
-3. Copy `.env.example` to `.env` and edit database credentials there.
-4. Install dependencies:
+
+3. **Copy the example environment file**
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Edit `.env` and set your database credentials**
+
+5. **Install PHP dependencies**
    ```bash
    composer install
    ```
-5. Generate application key:
+
+6. **Generate application key**
    ```bash
    php artisan key:generate
    ```
-6. Run migrations and seed the database:
+
+7. **Run migrations and seed the database**
    ```bash
    php artisan migrate --seed
    ```
-7. Start the development server:
+
+8. **Start the local development server**
    ```bash
    php artisan serve
    ```
 
-## Default Accounts
+Now visit `http://127.0.0.1:8000` to explore the system.
 
-**User Account:**
+---
 
-- Email: user@gmail.com
-- Password: Password@1
+## 👥 Default Login Credentials
 
-**Admin Account:**
+### User Account
+- **Email:** user@gmail.com  
+- **Password:** Password@1
 
-- Email: admin@gmail.com
-- Password: Password@1
+### Admin Account
+- **Email:** admin@gmail.com  
+- **Password:** Password@1
 
-## Contact
+> ⚠️ Use only for testing purposes. Change credentials in production.
 
-- 📧 Email: [info@example.com](mailto:info@example.com)
-- 💬 WhatsApp: [+972592604393](https://wa.me/972592604393)
+---
+
+## 📧 Contact
+
+- Email: [info@example.com](mailto:info@example.com)  
+- WhatsApp: [Click to Chat](https://wa.me/972592604393)
