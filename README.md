@@ -33,13 +33,17 @@ Browse available rooms and reserve based on check-in/check-out dates.
 
 ---
 
-## 🖼 Demo
+## 🖼 Screenshots
 
-### 🧍‍♂️ User Reservation Page  
-<img src="https://i.ibb.co/Gfgp0Ybq/22.png" alt="Reservation Page" width="600"/>
+Captured from the running application with the seeded demo data.
 
-### 🛠 Admin Dashboard  
-<img src="https://i.ibb.co/tPzqyFNh/11.png" alt="Admin Dashboard" width="600"/>
+**Home**
+
+![Home](screenshots/home.png)
+
+| Rooms and availability search | Admin: rooms |
+|---|---|
+| ![Rooms](screenshots/rooms.png) | ![Admin rooms](screenshots/admin-rooms.png) |
 
 ---
 
@@ -47,12 +51,12 @@ Browse available rooms and reserve based on check-in/check-out dates.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ramezcode1/hotelManagement.git
+   git clone https://github.com/MohammedAbd20/hotel_Management.git
    ```
 
 2. **Navigate to the project directory**
    ```bash
-   cd hotelManagement
+   cd hotel_Management
    ```
 
 3. **Copy the example environment file**
@@ -104,3 +108,9 @@ Now visit `http://127.0.0.1:8000` to explore the system.
 
 - Email: [info@example.com](mailto:info@example.com)  
 - WhatsApp: [Click to Chat](https://wa.me/972592604393)
+
+---
+
+## 🙏 Credits
+
+Based on [ramezcode1/hotelManagement](https://github.com/ramezcode1/hotelManagement). The original design and idea belong to its author.
